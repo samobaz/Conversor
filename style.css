@@ -1,0 +1,78 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+    outline: none;
+  }
+
+body{
+    background-color:rgba(244, 244, 244, 1);
+}
+
+#header{
+    padding-top: 30px;
+    width: 550px;
+    height: 265px;
+    text-align: center;
+    background-color: rgba(105, 67, 255, 1);
+    color: white;
+}
+
+#value {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 58px;
+    height: 83px;
+    min-width: 117px; /* tamaño mínimo */   
+    max-width: 480px;/* tamaño máximo */
+    background-color: rgba(105, 67, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 0.512);
+    border-radius: 5px;
+    transition: width 0.2s ease;
+}
+
+#btn-convert{
+    margin-top: 20px;
+    height: 40px;
+    width: 117px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-color: rgba(178, 149, 255, 1);
+    border-radius: 8px;
+    font-weight: normal;
+}
+
+.text-bold{
+    font-weight: 1000;
+}
+
+.calculations{
+    margin-top: 30px;
+    height: 108px;
+    width: 500px;
+    text-align: center;
+    background-color: white;
+}
+
+section h2{
+    padding-top: 20px;
+    color: rgba(90, 83, 123, 1)
+}
+
+section p{
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <h1 class="text-bold">Metric/Imperial Unit Conversion</h1>
+        <Label>
+            <input class="text-bold" type="number" id="value">
+        </Label>
+        <br>
+        <button id="btn-convert">Convert</button> 
+    </div>
+    <section id="results">
+        <div class="calculations">
+            <h2>Lenght (Meter/Feet)</h2>
+            <p id="length-unit">meters = feet | feet = meters</p>
+        </div>
+        <div class="calculations">
+            <h2>Volumen (Liters/Gallons)</h2>
+            <p id="volumen-unit">liters = gallons | gallons = liters</p>
+        </div>
+        <div class="calculations">
+            <h2>Mass (Kilograms/Pounds)</h2>
+            <p id="mass-unit">kilos = pounds | pounds = kilos</p>
+        </div>
+    </section>
+</body>
+</html>
+
+<script src="conversor.js"></script>
